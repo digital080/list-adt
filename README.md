@@ -1,14 +1,44 @@
-# List ADT
-This is a simple List ADT implemented using linked-lists.
+# Some Simple (Linear) ADTs
 
- 
-## How to Compile
+## List ADT
+To compile, use the command `make list`
 
-~~this project is setup to use `make` (to do the compiling) and `make run` to run~~
+The relevant files are
++ List.h
++ List.cpp
++ ListClient.cpp (**To be completed**)
 
-(**Make run, not working**)
 
-- - -
+## Stack ADT
 
-+ Use `g++ -std=c++14 *.cpp -o list.out` instead.
-+ Run as `./list.out` 
+ Stack clients have been written already. Each client does the same thing.
+
+
+### Vector Implementation
+
+To compile, use the command `make stackv`
+
+The relevant files are
++ StackV.h
++ StackV.cpp (**To be completed**)
++ StackVclient.cpp
+
+
+
+### List ADT Implementation
+To compile, use the command `make stackl`
+
+The relevant files are
++ StackL.h
++ StackL.cpp (**To be completed**)
++ StackLclient.cpp
+
+### Linked-list Implementation
+To compile, use the command `make stackll`
+
+The relevant files are
++ StackLL.h
++ StackLL.cpp (**To be completed**)
++ StackLLclient.cpp
+
+
