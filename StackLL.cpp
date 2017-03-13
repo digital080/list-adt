@@ -44,7 +44,7 @@ void Stack::push(int k){
 
 		
 		}
-		//num_elements++; //Incrementing num_elements crashes the program (Nothing to do with the for or if statement)
+		num_elements++; //Incrementing num_elements crashes the program (Nothing to do with the for or if statement)
 	}
 	
 int Stack::size(){
