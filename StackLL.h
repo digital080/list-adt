@@ -24,7 +24,7 @@ public:
 
    void push(int);
 
-   void pop();
+   int pop();
 
    int top();
 
